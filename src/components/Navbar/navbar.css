@@ -1,0 +1,23 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #080812;
+    
+}
+
+.navbar a:hover {
+    opacity: 0.6;
+}

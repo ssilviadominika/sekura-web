@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffbea;
+}
+
+.commodities-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fffbea;
+    background-image: 
+     radial-gradient(circle at 0% 0%, #dfc8ad 0%, #eadbc7 15%, transparent 35%),
+     radial-gradient(circle at 100% 100%, #dfc8ad 0%, #eadbc7 15%, transparent 35%);
+    
+    overflow: hidden;
+}
+
+.commodities-page nav {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.commodities-decoration-right {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    top: 35px;
+    right: -45px;
+    z-index: 2;
+}
+
+.commodities-decoration-left {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    left: -45px;
+    bottom: -50px;
+    z-index: 2;
+}
+
+.commodities-content {
+    position: relative;
+    z-index: 5;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.commodities-content p {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.55;
+    color: #111111;
+    text-align: justify;
+}
