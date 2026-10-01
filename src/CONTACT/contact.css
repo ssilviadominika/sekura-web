@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fffbea;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .contact-page {
@@ -15,7 +15,7 @@ body {
     background-image: 
       radial-gradient(circle at 0% 0%, #dfc8ad 0%, #eadbc7 15%, transparent 35%),
       radial-gradient(circle at 100% 100%, #dfc8ad 0%, #eadbc7 15%, transparent 35%);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .contact-page nav {
@@ -52,13 +52,17 @@ body {
     margin-right: 8px;
 }
 
-.contact-item p {
+.contact-item a {
     margin: 0;
     font-family: Arial, sans-serif;
     font-size: 11px;
     line-height: 1.4;
     color: #171717;
     white-space: nowrap;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
 }
 
 .contact-decoration-left,
@@ -78,4 +82,19 @@ body {
 .contact-decoration-left {
     left: -45px;
     bottom: -50px;
+}
+
+.page-animation {
+    animation: pageFadeIn 0.8s ease-out;
+}
+
+@keyframes pageFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

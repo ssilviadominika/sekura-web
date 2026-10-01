@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar/index";
+import Footer from "../components/Footer";
 import "./home.css";
 
 import logoSekura from "../assets/logo1.png";
@@ -16,19 +17,21 @@ function Home() {
       
       <Navbar />
 
-      <div className="home-logo">
+      <div className="home-logo page-animation">
         <img
           src={logoSekura}
           alt="Logo Sekura"
         />
       </div>
 
-      <div className="home-content">
+      <div className="home-content page-animation">
         <h1>SEKURA COMMODITIES</h1>
         <p>by <strong>MOGIN GROUP</strong></p>
         <p>Denpasar, Bali</p>
 
       </div>
+
+      <Footer />
 
     </div>
   );

@@ -15,7 +15,7 @@ body {
      radial-gradient(circle at 0% 0%, #dfc8ad 0%, #eadbc7 15%, transparent 35%),
      radial-gradient(circle at 100% 100%, #dfc8ad 0%, #eadbc7 15%, transparent 35%);
     
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .commodities-page nav {
@@ -49,16 +49,31 @@ body {
 .commodities-content {
     position: relative;
     z-index: 5;
-    width: 400px;
+    width: 800px;
     margin: 0 auto;
     margin-top: 120px;
 }
 
 .commodities-content p {
     margin: 0;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: Arial, sans-serif;
     font-size: 17px;
     line-height: 1.55;
     color: #111111;
     text-align: justify;
+}
+
+.page-animation {
+    animation: pageFadeIn 0.8s ease-out;
+}
+
+@keyframes pageFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

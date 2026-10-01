@@ -1,8 +1,10 @@
 import Navbar from "../components/Navbar";
 import "./commodities.css";
+import Footer from "../components/Footer";
 
 import dekorasi1 from "../assets/dekorasi_1.png";
 import dekorasi2 from "../assets/dekorasi_2.png";
+
 
 function Commodities() {
     return (
@@ -12,17 +14,21 @@ function Commodities() {
             <img src={dekorasi2} alt="dekorasi kanan atas" className="commodities-decoration-right" />
             <img src={dekorasi1} alt="dekorasi kiri bawah" className="commodities-decoration-left" />
 
-        <div className="commodities-content">
-            <p>In the past 5 years, I have involved myself in interior design 
-                knowledge that eventually became my passion. For me, interior 
-                design is one of the most important things for someone in their real 
-                life. It's not only about the aesthetic or layouting some stuff in one 
-                room, but it is also about humanizing space. I love to learn and begin 
-                some new things that I never tried before and join with excellent 
-                people that push me to become more expert in that profession. 
-                Hence, my goal is to explore more and further experience in interior 
-                design. </p>
+        <div className="commodities-content page-animation">
+            <p>Sekura supplies a range of Indonesia’s premium commodities to both 
+                domestic and international markets. Our offerings include coffee, 
+                cocoa, cinnamon, and vanilla—all sourced locally and of the highest 
+                quality. Each commodity boasts unique characteristics: green coffee beans 
+                featuring distinctive flavor profiles from various Indonesian regions; 
+                premium-quality cocoa suitable for diverse processing needs; cinnamon with its 
+                signature aroma and taste; and vanilla, prized for its natural fragrance and 
+                status as one of Indonesia’s flagship commodities. Sekura serves as a bridge 
+                connecting Indonesia’s abundant natural resources to the global market, 
+                providing local commodities that meet market demands while prioritizing 
+                quality, consistency, and supply reliability. </p>
         </div>
+
+        <Footer />
 
         </div>
     );
