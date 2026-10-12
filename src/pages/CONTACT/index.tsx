@@ -27,7 +27,7 @@ function Contact() {
 
                 <div className="contact-item">
                     <img src={email} alt="email" className="contact-icon" />
-                    <a href="meilto:christina.hann@mogin.net">christina.hann@mogin.net</a>
+                    <a href="mailto:christina.hann@mogin.net">christina.hann@mogin.net</a>
                 </div>
                 
             </div>
