@@ -74,6 +74,7 @@ body {
 
 .home-content p strong {
     font-weight: 800;
+    color: #000;
 }
 
 .home-content p:last-of-type {

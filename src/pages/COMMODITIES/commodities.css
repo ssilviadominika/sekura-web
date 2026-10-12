@@ -51,16 +51,52 @@ body {
     z-index: 5;
     width: 800px;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
 .commodities-content p {
     margin: 0;
     font-family: Arial, sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 1.55;
     color: #111111;
     text-align: justify;
+}
+
+.commodities-list {
+    width: 700px;
+    max-width: 90%;
+    margin: 60px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+
+.commodities-item {
+    width: 22%;
+    min-height: 120px;
+}
+
+.commodities-item h2 {
+    margin: 0 0 35px 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    color: #111111;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.commodities-item ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 13px;
+    color: #111111;
+    line-height: 1.6;
 }
 
 .page-animation {

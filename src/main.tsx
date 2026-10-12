@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./HOME";
-import Commodities from "./COMMODITIES";
-import Company from "./COMPANY";
-import Contact from "./CONTACT";
+import Home from "./pages/HOME";
+import Commodities from "./pages/COMMODITIES";
+import Company from "./pages/COMPANY";
+import Contact from "./pages/CONTACT";
 
 import "./index.css";
 

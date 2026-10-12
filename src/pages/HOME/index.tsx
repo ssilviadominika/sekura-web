@@ -1,14 +1,16 @@
-import Navbar from "../components/Navbar/index";
-import Footer from "../components/Footer";
+import Navbar from "../../components/Navbar/index";
+import Footer from "../../components/Footer";
 import "./home.css";
 
-import logoSekura from "../assets/logo1.png";
-import dekorasi1 from "../assets/dekorasi_1.png";
-import dekorasi2 from "../assets/dekorasi_2.png";
+import logoSekura from "../../assets/logo1.png";
+import dekorasi1 from "../../assets/dekorasi_1.png";
+import dekorasi2 from "../../assets/dekorasi_2.png";
+
 
 
 
 function Home() {
+
   return (
     <div className="home-page">
 
@@ -24,9 +26,12 @@ function Home() {
         />
       </div>
 
+
       <div className="home-content page-animation">
         <h1>SEKURA COMMODITIES</h1>
-        <p>by <strong>MOGIN GROUP</strong></p>
+        <p>
+          by <a href="https://mogin.net/" target="_blank" rel="noreferrer"><strong>MOGIN GROUP</strong></a>
+        </p>
         <p>Denpasar, Bali</p>
 
       </div>

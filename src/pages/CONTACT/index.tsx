@@ -1,12 +1,12 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 import "./contact.css";
 
-import telephone from "../assets/telephone.png";
-import email from "../assets/email.png";
+import telephone from "../../assets/telephone.png";
+import email from "../../assets/email.png";
 
-import dekorasi1 from "../assets/dekorasi_1.png";
-import dekorasi2 from "../assets/dekorasi_2.png";
+import dekorasi1 from "../../assets/dekorasi_1.png";
+import dekorasi2 from "../../assets/dekorasi_2.png";
 
 
 function Contact() {
@@ -22,7 +22,7 @@ function Contact() {
 
                 <div className="contact-item">
                     <img src={telephone} alt="telephone" className="contact-icon" />
-                    <a href="tel:+6281315944589">+62 81315944589</a>
+                    <a href="https://wa.me/081315944589" target="_blank" rel="noopener noreferrer">+62 81315944589</a>
                 </div>
 
                 <div className="contact-item">
